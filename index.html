@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BuffBakery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <h1>Welcome to BuffBakery!</h1>
+    <div id="menu-screen">  
+    <p>Choose your high-protein treat:</p>
+
+<!--rmenu-->
+
+    <div class="menu">
+      <button onclick="showRecipe('scbites')">Strawberry Chocolate Bites</button>
+      <button onclick="showRecipe('brownie')">Protein Brownie</button>
+      <button onclick="showRecipe('cookiedough')">Cookie Dough</button>
+      <button onclick="showRecipe('cottagecheesepudding')">Cottage cheese pudding</button>
+      <button onclick="showRecipe('yogurtpopsicles')">Yogurt popsicles</button>
+      <button onclick="showRecipe('Bananacake')">Protein Banana Cake</button>
+      <button onclick="showRecipe('cheesecakejars')">Cheesecake jars</button>
+      <button onclick="showRecipe('chickpeacake')">Chickpea Cake</button>
+    </div>
+    </div>
+
+    <div id="recipe-box" style="display:none">
+      <h2 id="recipe-title"></h2>
+      <p id="recipe-note"></p>
+      <ul id="ingredients-list"></ul>
+      <button id="start-baking-btn" onclick="startBaking()">Start Making</button>
+      <button onclick="goBack()">← Back to Menu</button>
+
+      
+    </div>
+
+    <div id="baking-steps" style="display: none;">
+      <img id="step-image" src="" alt="final dessert" width=150px>
+      <p id="step-text"></p>
+      <button id="next-button" onclick="showNextStep()">Next</button>
+      <button onclick="goBack()">← Back to Menu</button> >
+    </div>
+
+    <!--baking countdown screen-->
+    <div id="oven-screen" style="display:none;">
+      <img sid="oven-image" src="img/oven-baking.gif" alt="oven" width="160">
+      <p>Baking at <span id="bake-temp"></span> for <span id="bake-time"></span> minutes</p>
+      <p id="countdown">⏳</p>
+        <button onclick="goBack()"> Back to Menu</button> 
+    </div>
+
+    </div> <!-- app-container -->
+
+    <!-- Load your JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

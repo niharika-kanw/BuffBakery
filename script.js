@@ -1,7 +1,8 @@
-// 🔸 All your recipes live here
+// All your recipes live here
 const recipes = {
   scbites: {
   title: "Strawberry Chocolate Bites",
+  nutrition: "Per bite: 61 Calories | 5.2g Protein",
   note: "Makes about 10 protein bites — a perfect grab-and-go snack!",
   ingredients: [
     "1/2 cup fresh strawberries, finely chopped",
@@ -21,12 +22,7 @@ const recipes = {
     "Roll the mixture into bite-sized balls.",
     "Refrigerate for at least 30 minutes before enjoying."
   ],
-  facts: [
-    "✔ ~6g protein per bite",
-    "✔ Gluten-free if certified oats are used",
-    "✔ Naturally sweetened",
-    "✔ Store in fridge for 1 week or freeze up to 3 months"
-  ],
+
   bakeTime: 0,
   bakeTemp: "N/A",
   needsOven: false,
@@ -36,6 +32,7 @@ const recipes = {
   brownie: {
     title: "Protein Brownie",
     note: "This recipe is for 12 brownies, if you would like more or less, just multiply with each ingredient!",
+    nutrition: "Per brownie: 77 Calories | 7.5g Protein",
     ingredients: [
       "1 cup mashed banana",
       "1/2 cup almond butter (or nut butter)",
@@ -62,6 +59,7 @@ const recipes = {
   cookiedough: {
     title: "Cookie Dough",
     note: "This recipe is for one serving only, you can make more by multiplying the ingredients accordingly.",
+    nutrition: "540 Calories | 31g Protein",
     ingredients:[  
       "1/2 cup creamy peanut butter (or almond/cashew butter)",
       "2 tablespoons maple syrup or honey",
@@ -75,17 +73,14 @@ const recipes = {
       "Fold in the chocolate chips.",
       "Enjoy immediately or refrigerate for 30 minutes for a thicker texture."
     ],
-    facts: [  
-      "✔ 30g protein per serving",
-      "✔ Gluten-free, no added refined sugar",
-      "✔ Can be made vegan or dairy-free",
-      "✔ Store in fridge for up to 1 week or freeze up to 6 months" ]
+
 
 
   },
   cottagecheesepudding: {
   title: "Cottage Cheese Pudding",
   note: "This is a high-protein, 3-ingredient dessert you can enjoy even for breakfast!",
+  nutrition: "330 Kcal | 26g Protein",
   ingredients: [
     "1 cup full-fat cottage cheese (or dairy-free alternative)",
     "1–2 tablespoons honey or maple syrup (adjust to taste)",
@@ -99,12 +94,7 @@ const recipes = {
     "Refrigerate for at least 30 minutes to let it firm up.",
     "Serve chilled. Optionally, top with berries or whipped cream."
   ],
-  facts: [
-    "✔ 25g+ protein per serving",
-    "✔ Just 3 ingredients",
-    "✔ Naturally gluten-free",
-    "✔ Can be made dairy-free"
-  ],
+
   bakeTime: 0,
   bakeTemp: "No oven needed",
   needsOven: false,
@@ -115,6 +105,7 @@ const recipes = {
 yogurtpopsicles: {
   title: "Protein Yogurt Popsicles",
   note: "This recipe makes 6 delicious high-protein popsicles. Double the batch if you're meal prepping!",
+  nutrition: "Per popsicle: 45 Kcal | 6g Protein",
   ingredients: [
     "1 cup Greek yogurt (plain or vanilla)",
     "1/2 scoop vanilla or strawberry protein powder",
@@ -130,12 +121,7 @@ yogurtpopsicles: {
     "Insert sticks and freeze for at least 4–6 hours or until solid.",
     "To release, run the mold under warm water for 5–10 seconds and pull gently."
   ],
-  facts: [
-    "✔ 10–12g protein per popsicle",
-    "✔ Low sugar and customizable",
-    "✔ Can use dairy-free yogurt for vegan version",
-    "✔ Great for hot days or post-workout treats"
-  ],
+
   bakeTime: 0,
   bakeTemp: "No oven",
   needsOven: false,
@@ -145,6 +131,7 @@ yogurtpopsicles: {
 Bananacake: {
   title: "Protein Banana Bread",
   note: "This recipe makes 8 slices. For more or fewer servings, adjust the ingredients proportionally.",
+  nutrition: "Per slice: 190 kcal | 8g Protein",
   ingredients: [
     "2 medium bananas, mashed",
     "1 cup milk (e.g., almond milk)",
@@ -163,12 +150,7 @@ Bananacake: {
     "Bake for 35–45 minutes, or until a toothpick comes out mostly clean.",
     "Let the banana bread cool in the pan, then remove, slice, and enjoy."
   ],
-  facts: [
-    "✔ 25g protein per slice",
-    "✔ Moist and fluffy texture",
-    "✔ Freezer-friendly for up to 6 months",
-    "✔ Customizable with mix-ins like nuts or chocolate chips"
-  ],
+
   bakeTime: 45,
   bakeTemp: "180°C",
   needsOven: true,
@@ -180,6 +162,7 @@ Bananacake: {
 cheesecakejars: {
   title: "Cheesecake Jars",
   note: "This recipe makes 2 small jars. Adjust ingredients to scale up!",
+  nutrition: "Per jar: 290 - 315 Kcal | 15g Protein",
   ingredients: [
     "1/2 cup plain Greek yogurt (high protein, e.g. 2%)",
     "1/2 cup low-fat cream cheese, softened",
@@ -197,12 +180,7 @@ cheesecakejars: {
     "Top with berries, jam, or your favorite fruit.",
     "Refrigerate for at least 30 minutes to firm up before serving."
   ],
-  facts: [
-    "✔ No-bake & fridge-friendly",
-    "✔ ~20g protein per jar",
-    "✔ Can be made sugar-free with stevia or monk fruit",
-    "✔ Customize with nut butters or granola"
-  ],
+
   bakeTime: 0,
   bakeTemp: "No oven",
   needsOven: false,
@@ -212,6 +190,7 @@ cheesecakejars: {
 chickpeacake: {
   title: "Chickpea Protein Cake",
   note: "This fudgy chickpea cake serves 6. Great for post-workout or healthy dessert!",
+  nutrition:"Per slice: 270 kcal | 12g Protein",
   ingredients: [
     "1 can chickpeas (15 oz / ~1.5 cups), rinsed & drained",
     "1/2 cup peanut butter (or almond butter)",
@@ -232,12 +211,7 @@ chickpeacake: {
     "Bake for 25–30 minutes, until the top is set and a toothpick comes out mostly clean.",
     "Cool before slicing and enjoy!"
   ],
-  facts: [
-    "✔ ~10g protein per slice",
-    "✔ Gluten-free & flourless",
-    "✔ Chickpeas = fiber + plant protein",
-    "✔ Can be made dairy-free"
-  ],
+
   bakeTime: 30,
   bakeTemp: "180°C",
   needsOven: true,
@@ -259,6 +233,8 @@ function showRecipe(name) {
   // Populate recipe title
   document.getElementById("recipe-title").innerText = selectedRecipe.title;
   document.getElementById("recipe-note").innerText = selectedRecipe.note;
+  document.getElementById("recipe-nutrition").innerText = selectedRecipe.nutrition;
+
 
 
   // Populate ingredients list
@@ -330,7 +306,7 @@ function showNextStep() {
   {
     document.getElementById("step-image").src="chickpeacake.png";
   }
-  // 🔥 HIDE the Next button if this is the LAST STEP
+  
   if (currentStep === selectedRecipe.steps.length - 1) {
     document.getElementById("next-button").style.display = "none";
   } else {
